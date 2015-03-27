@@ -9,6 +9,6 @@ function init {
 
 	BO_sourcePrototype "$__BO_DIR__/../node_modules/org.pinf.lib/bin/init.prototype" "$__BO_DIR__/pit.js"
 
-	runPlugin "$__BO_DIR__/.." $@
+	runFor "$__BO_DIR__/.." $@
 }
 init $@
